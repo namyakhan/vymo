@@ -14,7 +14,7 @@ const HeroSection = () => {
       </div>
       {/* Left Side */}
 
-      <div className="flex flex-row justify-end relative">
+      <div className="flex flex-row justify-end lg:relative">
         <img
           src="images/hero.svg"
           alt="hero"

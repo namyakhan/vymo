@@ -19,7 +19,7 @@ const Goals = () => {
   ];
 
   return (
-    <div className="container mx-auto py-[10px] px-[10px] lg:px-[50px] pt-16 ">
+    <div className="container mx-auto py-[10px] px-[10px] lg:px-[50px] pt-10 lg:pt-16 ">
       <div className="flex flex-col items-center space-y-5 lg:space-y-0 lg:flex lg:flex-row lg:items-center lg:justify-between">
         {Objectives.map((objective) => (
           <div

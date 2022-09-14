@@ -36,7 +36,7 @@
     @apply text-[25px] md:text-[30px] xl:text-[45px] font-[700]  text-center leading-tight;
   }
   h3{
-    @apply text-white text-[20px] font-semibold
+    @apply text-white text-[14px] lg:text-[20px] font-semibold
   }
 
   h6 {

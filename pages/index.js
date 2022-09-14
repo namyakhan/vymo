@@ -2,6 +2,11 @@ import Head from "next/head";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import Goals from "../components/Goals";
+import Products from "../components/Products";
+import Solutions from "../components/Solutions";
+import Company from "../components/Company";
+import Resources from "../components/Resources";
+
 
 
 export default function Home() {
@@ -15,6 +20,10 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <Goals />
+      <Products />
+      <Solutions />
+      <Company />
+      <Resources />
   
     </div>
   );
