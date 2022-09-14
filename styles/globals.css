@@ -1,26 +1,56 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Rochester&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient {
+  background: linear-gradient(
+    to right,
+    #f5f5f5 0%,
+    #f5f5f5 70%,
+    #1c122e 70%,
+    #1c122e 100%
+  );
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+  .card {
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
+
+
+@layer base {
   body {
-    color: white;
-    background: black;
+    @apply bg-[#F5F5F5] font-poppins;
+  }
+
+  h1 {
+    @apply text-[30px] md:text-[50px] xl:text-[64px] font-[700] leading-8 md:leading-tight mt-5 md:mt-0;
+  }
+  h2 {
+    @apply text-[25px] md:text-[30px] xl:text-[45px] font-[700]  text-center leading-tight;
+  }
+  h3{
+    @apply text-white text-[20px] font-semibold
+  }
+
+  h6 {
+    @apply text-black text-[16px] md:text-[22px]  font-[500];
+  }
+
+  p {
+    @apply text-[15px] text-gray-500 font-[500] mt-3 md:mt-0;
+  }
+  button {
+    @apply bg-blue text-white text-[12px] lg:text-[15px]  font-[400] rounded px-5 py-2;
+  }
+
+  li {
+    @apply md:ml-8 text-[12px] lg:text-[15px] font-[500] md:my-0 my-7 text-black  hover:text-black;
   }
 }
