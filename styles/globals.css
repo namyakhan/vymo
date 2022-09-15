@@ -4,15 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.gradient {
-  background: linear-gradient(
-    to right,
-    #f5f5f5 0%,
-    #f5f5f5 70%,
-    #1c122e 70%,
-    #1c122e 100%
-  );
-}
+
 
   .card {
     background: rgba( 255, 255, 255, 0.35 );
@@ -28,6 +20,16 @@
       width: 800px;
       height: 350px;
     }
+    .gradient {
+      background: linear-gradient(
+        to right,
+        #f5f5f5 0%,
+        #f5f5f5 70%,
+        #1c122e 70%,
+        #1c122e 100%
+      );
+    }
+    
   }
 
   @media only screen and (max-width: 1200px){

@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div className=" gradient container mx-auto py-[10px] px-[10px] lg:px-[50px]  flex flex-col-reverse items-center text-center md:text-left md:flex-row md:items-center md:justify-between pt-8 md:pt-16 ">
+    <div className="  gradient container mx-auto py-[10px] px-[10px] lg:px-[50px]  flex flex-col-reverse items-center text-center md:text-left md:flex-row md:items-center md:justify-between pt-8 md:pt-16 ">
       {/* Right Side */}
       <div className="md:w-1/2">
         <h1>Conventional CRMs are insufficient</h1>
