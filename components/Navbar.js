@@ -16,7 +16,7 @@ const Navbar = () => {
   let [open, setOpen] = useState(false);
 
   return (
-    <nav className=" gradient container mx-auto hover:drop-shadow-sm w-full left-0   md:gradient pt-2 ">
+    <nav className=" gradient container mx-auto hover:drop-shadow-sm w-full left-0   md:gradient pt-2 lg:pt-5 ">
       <div className="md:flex items-center justify-between py-[10px] lg:px-[50px] px-[10px]">
         {/* Logo */}
         <div className=" cursor-pointer flex items-center space-x-2">

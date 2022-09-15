@@ -9,7 +9,7 @@ const Solutions = () => {
 
 
         <div className=" flex flex-row items-center justify-between bg-[#ffffff] lg:w-2/3 p-5 lg:py-10 lg:px-20 rounded-2xl mt-5 md:mt-12 space-x-5 ">
-        <button className="bg-aqua py-1 px-2 lg:py-5 lg:px-10">Gartner</button>
+        <button className="bg-aqua py-1 px-2 lg:py-5 lg:px-10 hover:bg-cyan-700">Gartner</button>
         <div className="lg:w-3/4">
                 <h3 className="text-black">Vymo is a Representative Vendor in Gartner’s Sales Engagement Market Guide</h3>
         <p className="text-gray-400 font-normal text-[12px] mt-5">
@@ -19,7 +19,7 @@ const Solutions = () => {
          intelligently
         </p>
    
-        <button className=" py-1 px-2 lg:px-5 lg:py-2 bg-blue border mt-5">Download Report</button></div>
+        <button className=" py-1 px-2 lg:px-5 lg:py-2 bg-blue border mt-5 ">Download Report</button></div>
 </div>
 {/* Card 2 */}
 

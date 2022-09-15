@@ -22,7 +22,54 @@
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
+  
+  @media screen and (min-width: 1200px) {
+    .swiper {
+      width: 800px;
+      height: 350px;
+    }
+  }
 
+  @media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .swiper {
+      width: 600px;
+      height: 320px;
+    }
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+  .swiper {
+    width: 350px;
+    height: 220px;
+  }
+}
+
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+  .swiper {
+    width: 300px;
+    height: 220px;
+  }
+}
+
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .swiper-slide:nth-child(1n) {
+    background-color: rgb(44,35,61);
+  }
+
+  .swiper-slide:nth-child(2n) {
+    background-color: rgb(44,35,61);
+  }
 
 @layer base {
   body {
@@ -47,7 +94,7 @@
     @apply text-[15px] text-gray-500 font-[500] mt-3 md:mt-0;
   }
   button {
-    @apply bg-blue text-white text-[12px] lg:text-[15px]  font-[400] rounded px-5 py-2;
+    @apply bg-blue text-white text-[12px] lg:text-[15px]  font-[400] rounded px-5 py-2 hover:bg-indigo-600;
   }
 
   li {

@@ -39,9 +39,7 @@ const HeroSection = () => {
           className="hidden lg:block h-[100px] absolute z-10 right-0 "
         />
       </div>
-      {/* <div>
-
-      </div> */}
+    
     </div>
   );
 };

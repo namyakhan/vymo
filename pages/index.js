@@ -25,6 +25,8 @@ export default function Home() {
       <Company />
       <Resources />
   
+     
+  
     </div>
   );
 }
